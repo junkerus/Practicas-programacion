@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dibujando en canvas</title>
+    <link rel="stylesheet" href="dibujero.css" />
+</head>
+
+<body>
+    <h1>Dibujo en canvas</h1>
+    <p>
+        ¿Cuantas lineas quieres?
+        <input type="text" placeholder="ej: 20" id="textoLineas" />
+    </p>
+    <p>
+        Selecciona el primer color
+        <input type="color" id="colorcitos1" />
+    </p>
+    <p>
+        Selecciona el segundo color
+        <input type="color" id="colorcitos2" />
+    </p>
+    <p>
+        Escoje tamaño del lienzo
+        <input type="text" placeholder="ej: 300" id="lienzoTamano" />
+    </p>
+    <p>
+        <input type="button" value="A Darle!" id="botoncito" />
+    </p>
+    <canvas style="background-color: white;" id="dibujito"></canvas>
+    <h3>Asi queda tu dibujo</h3>
+    <script src="dibujero.js"></script>
+</body>
+
+</html>
