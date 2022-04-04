@@ -1,4 +1,4 @@
-const { get } = require("express/lib/response");
+const { get } = require("express/lib/response"); // Importa el método get de express
 
 var frutas = ["Manzana", "Pera", "Naranja", "Sandia"];
 console.log(frutas);
@@ -26,3 +26,5 @@ class MyArray {
   }
 }
 const myArray = new MyArray();
+
+// que es un array? : el array es una coleccion de datos que se pueden acceder por un indice numerico

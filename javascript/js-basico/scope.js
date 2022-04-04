@@ -5,3 +5,7 @@ function miNombre(nombre) {
     console.log(miNombre +" "+apellido);
 
 }
+
+// tipos de scope en javascript
+scope // global
+var scope // local

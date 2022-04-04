@@ -1,16 +1,16 @@
 var a = 4 + "7";
 
-typeof  a; // ver el tipo de dato de la variable
+typeof  a; //resulatado: "string"
 
 var b = 4 * "7"; //coercion implicita
-typeof b ;
+typeof b ; // resultado: number
 
-var c = 20; // +++++++++  como hacer coercion explicita
+var c = 20; //   como hacer coercion explicita
 var d = c + "";
-typeof d; //nos dira que es un string
+typeof d; // resultado: string
 
 var e = String(c); //asi se forza la coercion explicita
-typeof c; // nos va dar un string
+typeof c; // resultado: number
 console.log(c); // nos dara como resultado un 20 string
 
 

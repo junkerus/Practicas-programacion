@@ -71,7 +71,7 @@ opcion 2
 function suma(num1,num2) {
     return    console.log(num1 +num2);
 }
-suma(10,63);*/
+suma(10,63);*
 var lineBar = new ProgressBar.Line('#line-container', {
     color: 'orange',
     strokeWidth: 2,
@@ -104,3 +104,10 @@ var semiBar = new ProgressBar.SemiCircle('#semi-container', {
 semiBar.animate(1, {
     duration: 3000
 });
+switch (false) { 
+	case false: console.log("Soy falso :( ") 
+	case true: console.log("Soy verdadero!") 
+}*/
+/*6 === “6” // resultado: false
+4 == “4” // resultado: true*/
+
