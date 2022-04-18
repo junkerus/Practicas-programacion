@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geometricas en Javascript</title>
+</head>
+<body>
+    <header>
+        <h1>Figuras Geometricas en Javascript</h1>
+        <p>Primer taller del curso practico de javascript</p>
+    </header>
+    <section>
+        <h2>Calcula el area y perimetro de un cuadrado</h2>
+        <form>
+            <label for="InputCuadrado">Cuanto mide cada lado del Cuadrado?</label>
+            <input type="number" id="InputCuadrado" name="ladoCuadrado" placeholder="Ingrese dimension">
+            <input type="button" value="Calcular Perimetro" onclick="calcularPerimetroCuadrado()">
+            <input type="button" value="Calcular Area" onclick="calcularAreaCuadrado()">        
+    </section>
+    <section>
+        <h2>Calcula la altura de un triangulo isósceles</h2>
+        <form>
+            
+            <label for="InputTriangulo">Ingrese los lados del triangulo</label>
+            
+            <input type="button" value="Calcular Triangulo" onclick="calcularAlturaTriangulos()">
+            
+        </form>
+        
+
+    <script src="./figuras.js"></script>
+    <script src="./retomatematicas.js"></script>
+</body>
+</html>
